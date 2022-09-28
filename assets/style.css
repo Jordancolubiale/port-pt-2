@@ -98,6 +98,8 @@ main {
     height: fit-content;
 }
 
+
+/* ####### ABOUT ME SECTION ####### */
 .aboutme {
     display: flex;
     justify-content: space-between;
@@ -114,6 +116,7 @@ main {
     font-size: 28px;
     border-right: 3px solid var(--old);
     margin: 10px;
+    padding-right: 10px;
 }
 
 .aboutme p {
@@ -121,3 +124,48 @@ main {
     margin: 40px;
     font-size: 18px;
 }
+
+
+/* ######### WORK SECTION ######## */
+.worksec aside{
+    display: flex;
+    margin: 15px;
+    width: 30%;
+}
+
+.worksec aside h2{
+    font-size: 28px;
+    border-right: 3px solid var(--old);
+    margin: 30px;
+    padding-right: 10px;
+}
+
+.flexgrid{
+    display: flex;
+    width: 150px;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.flexgrid .big{
+    display: flex;
+max-width: 150px;
+max-height: 200px;
+border: 3px solid teal;
+}
+
+.flexgrid .norm{
+    display: flex;
+    position: relative;
+    width: 47%;
+    height: 100px;
+    border: 5px solid var(--mint);
+    margin: 10px;
+}
+
+
+
