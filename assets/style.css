@@ -51,7 +51,7 @@ body {
     width: 40%;
 }
 
-.navbar nav a{
+.navbar nav a {
     color: var(--mint);
     text-decoration: none;
     padding-bottom: 10px;
@@ -59,34 +59,62 @@ body {
     border-bottom: 2px solid var(--old);
 }
 
-.navbar nav a:hover{
+.navbar nav a:hover {
     border-bottom: 2px solid var(--mint);
 }
 
 /* ####### HERO SECTION ##### */
-.hero {
-    background-color: aqua;
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
     height: 250px;
     width: 100%;
 }
-.hero figure img{
+
+.hero figure img {
     width: 100%;
     height: 250px;
 }
 
-.hero figcaption{
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
+.bottom-right{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: var(--mint);
+    color: var(--old);
+    border-radius: 10px;
 }
-
 
 
 
 
 /* ####### MAIN ###### */
 main {
-    background-color: purple;
     width: 100%;
     height: fit-content;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.aboutme aside {
+    display: flex;
+    margin: 15px;
+}
+
+.aboutme aside h2{
+    font-size: 28px;
+    border-right: 3px solid var(--old);
+}
+
+.aboutme p {
+    display: flex;
+    margin: 10px;
 }
